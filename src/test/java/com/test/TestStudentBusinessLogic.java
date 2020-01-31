@@ -57,7 +57,7 @@ public class TestStudentBusinessLogic {
 	
 
 	//create student object for testing	
-	private static Student createStudent() {
+	private Student createStudent() {
 		Student student = new Student();
 		student.setName("Tina");
 		student.setStudentType("Online");
@@ -66,7 +66,7 @@ public class TestStudentBusinessLogic {
 		return student;
 	}
 	
-	private static List<Double> createScores(){
+	private  List<Double> createScores(){
 		List<Double> scoreList = new ArrayList<Double>();
 		scoreList.add(8.00);
 		scoreList.add(68.00);

@@ -21,7 +21,7 @@ public class StudentBusinessLogic {
 		for(double score : scoreList) {
 			sumOfScores = sumOfScores + score;
 		}
-		System.out.println(sumOfScores);
+		//System.out.println(sumOfScores);
 		return (sumOfScores / scoreList.size()) ;
 					
 	}

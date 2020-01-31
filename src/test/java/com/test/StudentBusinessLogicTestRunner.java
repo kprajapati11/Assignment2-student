@@ -15,7 +15,7 @@ public class StudentBusinessLogicTestRunner {
 		}else {
 			int failedTestCount = 0;
 			for(Failure failure : result.getFailures()) {
-				System.out.println(failure.toString());
+				System.out.println("Failed TestCase :: " + failure.toString());
 				failedTestCount +=1;
 			}
 			System.out.println(failedTestCount + " Test cases Failed");
